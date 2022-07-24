@@ -6,6 +6,7 @@ function App() {
   const [toDos,setToDos]=useState([])
   const [toDo,setToDo]=useState('')
   return (
+    <div className="app1">
     <div className="app">
       <div className="mainHeading">
         <h1>ToDo List</h1>
@@ -31,6 +32,7 @@ function App() {
           </div>
         </div>)})}
       </div>
+    </div>
     </div>
   );
 }
